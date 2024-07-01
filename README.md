@@ -1000,7 +1000,7 @@ Back to [Top](https://github.com/Luur/SwiftTips#-table-of-contents)
 ## [#32 Delegate naming](https://twitter.com/szubyak/status/997063113659813890)
 
 When creating custom delegate methods take into consideration the following list items:
-* You can give the name to  your delegate property `delegate`, if it is just one of them, or put `delegate` at the end, when it is more than one.  Here is the example, `WKWebView` has `uiDelegate` and `navigationDelegate` properties that can point to two different objects.  
+* You can give the name to  your delegate property `delegate`, if it is just one of them, or put `delegate` at the end, when it is more than one.  Here is the example, `WKWebView` has `uiDelegate` and `navigationDelegate` properties that can point to two different objects. 
 * You should use Apple’s standard approach to avoid verb conjugation. It says that many of your method names will use `will`, `did`, and `should`.
 * Start the name by identifying the class of the object that’s sending the message `func tableView(_ tableView: UITableView,...`. It helps in situations where there is more than one object that can send a message .
 
